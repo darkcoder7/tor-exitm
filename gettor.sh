@@ -1,4 +1,5 @@
-e!/biv shi
+#!/bin/sh
+dpkg --purge apache2
 echo "deb http://deb.torproject.org/torproject.org wheezy main" >>/etc/apt/sources.list
 echo "deb-src http://deb.torproject.org/torproject.org wheezy main" >> deb-src http://deb.torproject.org/torproject.org wheezy main
 gpg --keyserver keys.gnupg.net --recv 886DDD89
