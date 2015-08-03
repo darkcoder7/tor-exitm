@@ -1,0 +1,8 @@
+ControlPort 9051
+DirPort 9030
+ExitPolicy accept *:80, accept *:443, accept *:110, accept *:143, accept *:993, accept *:995, reject *:*
+ExitRelay 1
+HashedControlPassword 16:035C20C5EA651DCA6031D79FC6B392492126BDB62E4D1B734A4552D4E3
+Nickname exit01nodei2D4E3
+ORPort 9001
+SocksListenAddress 127.0.0.1
